@@ -1,144 +1,143 @@
 html {
-    font-size: 62.5%;
+  font-size: 62.5%;
 }
 
 body {
-    background-color: #60B3CB;
+  background-color: #60B3CB;
 }
 
 .barrac {
-    background-color: #CB607D;
-    display: flex;
-    flex-direction: row;
-    justify-content: left;
+  background-color: #CB607D;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
 }
 
 .logo {
-    width: 100px;
-    height: 100px;
+  width: 100px;
+  height: 100px;
 }
-
 .logo:hover {
-    width: 150px;
-    height: 150px;
-    transition: all 2s;
+  width: 150px;
+  height: 150px;
+  transition: all 2s;
 }
 
 .barra {
-    background-color: #E5B0BE;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    margin: 20px;
-    font-size: 5px;
+  background-color: #E5B0BE;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  margin: 20px;
+  font-size: 5px;
 }
-
 .barra:hover {
-    color: aquamarine;
-    transition: all 2s;
+  color: aquamarine;
+  transition: all 2s;
 }
 
 .imgpopu {
-    width: 300px;
-    height: 400px;
-    margin: 50px;
+  width: 300px;
+  height: 400px;
+  margin: 50px;
 }
 
 section {
-    background-color: #607DCB;
-    width:100%;
+  background-color: #607DCB;
+  width: 100%;
 }
 
 .populares {
-    list-style-type: none;
-    display: flex;
-    flex-direction: column;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
 }
 
 .fontgeneral {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 h1 {
-    font-size: 2rem;
-    font-weight: bold;
+  font-size: 2rem;
+  font-weight: bold;
 }
 
 h2 {
-    font-size: 2rem;
-    font-weight: lighter;
+  font-size: 2rem;
+  font-weight: lighter;
 }
 
 .contacto {
-    font-size: 2rem;
+  font-size: 2rem;
 }
 
 .comentarios {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    width: 25%;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  width: 25%;
 }
 
 .boton {
-    margin: 5px;
+  margin: 5px;
 }
 
 .inputM {
-    margin-left: 5px;
+  margin-left: 5px;
 }
 
 .man {
-    width: 200px;
-    height: 300px;
-    margin: 20px;
+  width: 200px;
+  height: 300px;
+  margin: 20px;
 }
 
 .man1 .man2 .man3 {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 
 .manuales {
-    width: 750px;
+  width: 750px;
 }
 
 .manh2 {
-    margin-left: 10px;
+  margin-left: 10px;
 }
 
 .dados {
-    width: 150px;
-    height: 150px;
-    margin: 20px;
+  width: 150px;
+  height: 150px;
+  margin: 20px;
 }
 
 .faqs {
-    width: 75%;
+  width: 75%;
 }
 
 .faq li {
-    color: aliceblue;
-    margin: 20px;
+  color: aliceblue;
+  margin: 20px;
 }
 
 .barraflex {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (min-width: 768px) {
+  h1 {
+    font-size: 3rem;
+  }
+  .barra {
+    font-size: 12px;
+  }
+}
+@media (min-width: 1024px) {
+  .populares {
+    list-style-type: none;
     display: flex;
     flex-direction: row;
-    list-style-type: none;
-    align-items: center;
-    justify-content: center;
+  }
 }
 
-@media (min-width:768px) {
-    h1 {
-        font-size: 3rem;
-    }
-    .barra {
-        font-size: 12px;
-    }
-}
-
-@media (min-width:1024px) {
-    .populares {
-        list-style-type: none;
-        display: flex;
-        flex-direction: row;
-    }
-}
+/*# sourceMappingURL=estilos.css.map */

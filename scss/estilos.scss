@@ -1,0 +1,161 @@
+$color_1: aquamarine;
+$color_2: aliceblue;
+$font-family_1: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+$font-family_2: Verdana, Geneva, Tahoma, sans-serif;
+$font-family_3: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+$background-color_1: #60B3CB;
+$background-color_2: #CB607D;
+$background-color_3: #E5B0BE;
+$background-color_4: #607DCB;
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: $background-color_1;
+}
+
+.barrac {
+    background-color: $background-color_2;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+
+    &:hover {
+        width: 150px;
+        height: 150px;
+        transition: all 2s;
+    }
+}
+
+.barra {
+    background-color: $background-color_3;
+    font-family: $font-family_1;
+    margin: 20px;
+    font-size: 5px;
+
+    &:hover {
+        color: $color_1;
+        transition: all 2s;
+    }
+}
+
+.imgpopu {
+    width: 300px;
+    height: 400px;
+    margin: 50px;
+}
+
+section {
+    background-color: $background-color_4;
+    width: 100%;
+}
+
+.populares {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.fontgeneral {
+    font-family: $font-family_2;
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: lighter;
+}
+
+.contacto {
+    font-size: 2rem;
+}
+
+.comentarios {
+    font-family: $font-family_3;
+    width: 25%;
+}
+
+.boton {
+    margin: 5px;
+}
+
+.inputM {
+    margin-left: 5px;
+}
+
+.man {
+    width: 200px;
+    height: 300px;
+    margin: 20px;
+}
+
+.man1 {
+    .man2 {
+        .man3 {
+            display: flex;
+            flex-direction: row;
+        }
+    }
+}
+
+.manuales {
+    width: 750px;
+}
+
+.manh2 {
+    margin-left: 10px;
+}
+
+.dados {
+    width: 150px;
+    height: 150px;
+    margin: 20px;
+}
+
+.faqs {
+    width: 75%;
+}
+
+.faq {
+    li {
+        color: $color_2;
+        margin: 20px;
+    }
+}
+
+.barraflex {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (min-width:768px) {
+    h1 {
+        font-size: 3rem;
+    }
+
+    .barra {
+        font-size: 12px;
+    }
+}
+
+@media (min-width:1024px) {
+    .populares {
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+    }
+}
