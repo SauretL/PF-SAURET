@@ -6,38 +6,50 @@ body {
   background-color: #60B3CB;
 }
 
-.barrac {
+.backrosa {
   background-color: #CB607D;
-  display: flex;
-  flex-direction: row;
-  justify-content: left;
 }
 
 .logo {
   width: 100px;
   height: 100px;
+  transition: 0.5s;
 }
 .logo:hover {
-  width: 150px;
-  height: 150px;
-  transition: all 2s;
+  width: 125px;
+  height: 125px;
+  transition: all 1s;
 }
 
 .barra {
   background-color: #E5B0BE;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
   margin: 20px;
-  font-size: 5px;
+  border-radius: 10px;
 }
 .barra:hover {
-  color: aquamarine;
-  transition: all 2s;
+  color: #CB607D;
+  background-color: #60B3CB;
+  transition: all 1s;
+}
+
+.dropbarra {
+  background-color: #E5B0BE;
+}
+.dropbarra:hover {
+  background-color: #CB607D;
+  color: white;
 }
 
 .imgpopu {
   width: 300px;
   height: 400px;
   margin: 50px;
+}
+
+main section div div p {
+  font-size: 15px;
+  font-weight: bold;
 }
 
 section {

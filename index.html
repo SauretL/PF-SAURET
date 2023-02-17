@@ -15,19 +15,9 @@
 
 <body>
     <header>
-        <!-- <nav class="barrac">
-            <ul class="barraflex">
-                <li><a href="index.html"><img src="imagenes/logo-placeholder-image.png" alt="logotienda"
-                            class="logo"></a></li>
-                <li><a class="barra" href="index.html">Inicio</a></li>
-                <li><a class="barra" href="portales/manuales.html">Manuales</a></li>
-                <li><a class="barra" href="portales/dados-y-accesorios.html">Dados y Accesorios</a></li>
-                <li><a class="barra" href="portales/preguntas-frecuentes.html">Preguntas Frecuentes</a></li>
-                <li><a class="barra" href="portales/contacto.html">Contacto</a></li>
-            </ul>
-        </nav> -->
+        <!--MENU HAMBURGESA BS-->
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
+            <div class="container-fluid backrosa">
                 <a href="index.html"><img src="imagenes/logo-placeholder-image.png" alt="logotienda" class="logo"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -37,39 +27,56 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                            <a class="nav-link active barra" aria-current="page" href="index.html">Inicio</a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            <a class="nav-link dropdown-toggle barra" href="#" role="button" data-bs-toggle="dropdown"
                                 aria-expanded="false">
                                 Productos
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="portales/manuales.html">Manuales</a></li>
-                                <li><a class="dropdown-item" href="portales/dados-y-accesorios.html">Dados y
+                                <li><a class="dropdown-item dropbarra" href="portales/manuales.html">Manuales</a></li>
+                                <li><a class="dropdown-item dropbarra" href="portales/dados-y-accesorios.html">Dados y
                                         Accesorios</a></li>
                             </ul>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="portales/preguntas-frecuentes.html">Preguntas Frecuentes</a>
+                            <a class="nav-link barra" href="portales/preguntas-frecuentes.html">Preguntas Frecuentes</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="portales/contacto.html">Contacto</a>
+                            <a class="nav-link barra" href="portales/contacto.html">Contacto</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
     </header>
+    <!--MAIN-->
     <main>
         <h1 class="fontgeneral">¡La tienda donde vas a encontrar todos los productos para roleros!</h1>
         <section>
             <h2 class="fontgeneral">Nuestros articulos más populares</h2>
-            <ul class="populares">
+            <!-- <ul class="populares">
                 <li><img class="imgpopu" src="imagenes/dyd01.jpg" alt="ManualDyDJugadores"></li>
                 <li><img class="imgpopu" src="imagenes/coc02.JPG" alt="ManualCthulhuKeeper"></li>
                 <li><img class="imgpopu" src="imagenes/pbta01.jpg" alt="ManualDungeonWorld"></li>
-            </ul>
+            </ul> -->
+            <div class="row">
+                <!--el 3 es xq son 4 columnas y 12/4=3 -->
+                <!--xl para vista escritorio, md vista tablet y sm es vista de celular-->
+                <div class="col-xl-4 col-md-6 col-sm-12 text-center">
+                    <img class="imgpopu" src="imagenes/dyd01.jpg" alt="ManualDyDJugadores">
+                    <p>Dungeons and Dragons 5e Manual de Jugador</p>
+                </div>
+                <div class="col-xl-3 col-md-6 col-sm-12 text-center">
+                    <img class="imgpopu" src="imagenes/coc02.JPG" alt="ManualCthulhuKeeper">
+                    <p>Call of Cthulhu Manual de Keeper</p>
+                </div>
+                <div class="col-xl-3 col-md-6 col-sm-12 text-center">
+                    <img class="imgpopu" src="imagenes/pbta01.jpg" alt="ManualDungeonWorld">
+                    <p>Dungeon World Manual Principal</p>
+                </div>
+            </div>
         </section>
     </main>
     <footer>
