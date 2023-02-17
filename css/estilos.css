@@ -100,15 +100,6 @@ h2 {
   margin: 20px;
 }
 
-.man1 .man2 .man3 {
-  display: flex;
-  flex-direction: row;
-}
-
-.manuales {
-  width: 750px;
-}
-
 .manh2 {
   margin-left: 10px;
 }
