@@ -136,14 +136,6 @@ h3 {
   padding: 8px;
 }
 
-.barraflex {
-  display: flex;
-  flex-direction: row;
-  list-style-type: none;
-  align-items: center;
-  justify-content: center;
-}
-
 .acordionC {
   background-color: #E5B0BE;
 }
