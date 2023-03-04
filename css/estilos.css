@@ -55,6 +55,8 @@ main section div div p {
 section {
   background-color: #607DCB;
   width: 100%;
+  border-color: black;
+  border-style: double;
 }
 
 .fontgeneral {
@@ -77,6 +79,13 @@ h2 {
 
 .comentarios {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.comentarios form {
+  margin: 1%;
+  padding: 1%;
+  border-color: #E5B0BE;
+  border-style: dotted;
+  font-size: 1.5rem;
 }
 
 .boton {
