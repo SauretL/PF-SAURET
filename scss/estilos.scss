@@ -121,17 +121,6 @@ h2 {
     margin: 20px;
 }
 
-.faqs {
-    width: 75%;
-}
-
-.faq {
-    li {
-        color: aliceblue;
-        margin: 20px;
-    }
-}
-
 .mainImg {
     padding: 8px;
 }
@@ -155,9 +144,7 @@ h2 {
 }
 
 @media (min-width:1024px) {
-    .populares {
-        list-style-type: none;
-        display: flex;
-        flex-direction: row;
+.faqs {
+        padding: 3%;
     }
 }
