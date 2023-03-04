@@ -115,6 +115,19 @@ h2 {
   justify-content: center;
 }
 
+.acordionC {
+  background-color: #E5B0BE;
+}
+.acordionC:hover {
+  background-color: #60B3CB;
+  color: white;
+  transition: all 1s;
+}
+
+.acordionP {
+  font-size: 1rem;
+}
+
 @media (min-width: 768px) {
   h1 {
     font-size: 3rem;
@@ -126,6 +139,12 @@ h2 {
 @media (min-width: 1024px) {
   .faqs {
     padding: 3%;
+  }
+  .acordionP {
+    font-size: small;
+  }
+  .acordionP:hover {
+    color: #607DCB;
   }
 }
 

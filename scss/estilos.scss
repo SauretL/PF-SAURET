@@ -133,6 +133,20 @@ h2 {
     justify-content: center;
 }
 
+.acordionC {
+    background-color: $color-principal2;
+
+    &:hover {
+        background-color: $color-secundario1;
+        color: white;
+        transition: all 1s;
+    }
+}
+
+.acordionP {
+    font-size: 1rem;
+}
+
 @media (min-width:768px) {
     h1 {
         font-size: 3rem;
@@ -146,5 +160,11 @@ h2 {
 @media (min-width:1024px) {
 .faqs {
         padding: 3%;
+    }
+    .acordionP {
+        font-size: small;
+        &:hover {
+                color: $color-secundario2;
+            }
     }
 }
