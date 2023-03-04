@@ -81,18 +81,47 @@ section {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-h1 {
-    font-size: 2rem;
-    font-weight: bold;
+@mixin indexCaja {
+    border-color: black;
+        border-style: dotted;
 }
 
-h2 {
-    font-size: 2rem;
-    font-weight: lighter;
+.Presentacion {
+    @include indexCaja;
+    background-color: $color-secundario1;
+    border-radius: 25%;
+}
+
+.noticias {
+@include indexCaja;
+background-color: $color-principal2;
+margin-top: 8px;
+padding-left: 10px;
+padding-top: 3px;
 }
 
 .contacto {
     font-size: 2rem;
+}
+
+h1 {
+    font-weight: bold;
+    @extend .contacto;
+}
+
+@mixin Hs {
+        font-weight: lighter;
+        @extend .contacto;
+}
+
+h2 {
+    @include Hs;
+}
+
+h3 {
+    @include Hs;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 20px 2px 20px 10px;
 }
 
 .comentarios {
@@ -177,4 +206,12 @@ h2 {
                 color: $color-secundario2;
             }
     }
+}
+
+//FOOTER
+
+footer {
+    p {
+    text-align:center;
+}
 }
